@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main2{
+    background-image:url(anime.jpg);
+    background-position:center; 
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.main{
+    background-color:transparent;
+    border: 3px solid rgba(81, 133, 139, 0.3);
+    text-align: center;
+    position: relative;
+    width: 400px;
+    box-shadow: (0px 20px 15px 35px rgba);
+    top: 70px;
+    left: 400px;
+    padding: 10px 0px;
+   
+}
+.inp>input{
+    padding: 5px 0px;
+    margin: 10px 0px ;
+    /* border: none; */
+    border-color: #ed0e0e;
+    padding-left: 20px;
+    border-radius:15px;
+    width: 250px;
+    height: 40px;
+
+    
+}
+.btn button{
+    margin:10px 20px;
+    width: 180px;
+    height: 35px;
+    border-radius: 8px;
+    color:black;
+    cursor: pointer;
+    border: none;
+    transition: transform.2s ease;
+
+}
+span #link{
+    text-decoration: none;
+    color:#87CEEB;
+    gap: 15px;
+    font-size: 20px;
+}
+#link{
+    margin-left: 15px;
+}
+span{
+    padding-right: 5px;
+    color: #FFDDC1;
+    font-size: 20px;
+}
+span #link:hover{
+    color:white;
+}
+#log{
+    font-family:sans-serif;
+    font-weight: bold;
+    color:white;
+    
+    
+   
+}
+ #nav{
+    color:black;
+    font-weight: bold;
+    text-decoration-style: solid;
+    position: relative;
+    top: 70px;
+    text-align: center;
+    right: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 50px;
+ }
+ #nav:hover{
+    transform: translateY(-15px);
+    color: cyan;
+    
+
+
+ }
+
+img{
+    position:relative;
+    top: 5%;
+    left:2%;
+    right: 200px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+img:hover{
+    height: 150px;
+    width: 150px;
+}
+.btn button #btn{
+    text-decoration: none;
+    color: black;
+}
+    
+
+ .btn button:hover{
+    transform: scale(1.08);
+
+}
+
+
+
